@@ -10,6 +10,8 @@ public class OpenshiftResource {
 
 	@GetMapping("/test")
 	public String test() {
+		System.out.prinln("testing for events");
 		return "Welcome to Spring boot openshift";
+		
 	}
 }
